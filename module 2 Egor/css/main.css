@@ -1,0 +1,78 @@
+*{	
+padding:0;
+margin:0;
+-webkit-box-sizing:border-box;
+moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+body{
+background-color:darkgrey;
+font-family:Bad Script;
+
+
+
+
+}
+main{
+background-color:darkblue;
+display:flex;
+width:95%;
+max-width:1240px;
+margin:auto;
+box-shadow:0 0 20px 5px rgba(0, 255, 238, 1);
+flex-wrap:wrap;
+}
+.item{
+max-height:300px;
+max-width:600px;
+width:calc(95vw /2 - 10px);
+height:calc(95vw /2 / 16*9);
+background-color:green;
+margin:10px;
+background-position:center;
+background-size:cover;
+}
+.heading{
+font-size:50px;
+text-align:center;
+width:100%;
+padding:30px 0;
+color:navajowhite;
+
+
+
+
+}
+@font-face{
+font-family:Bad Script;
+src: url(../fonts/BadScript-Regular.ttf);
+
+
+
+}
+.item:hover{
+	transform: scale(1.2)rotate(10deg);
+transition:0.9s;
+box-shadow:0 0 80px 10px rgba(255, 238, 0, 1);
+
+
+
+
+}
+
+@media all and (max-width:  768px){
+.item{
+max-height:initial;
+max-width:initial;
+width:95vw;
+height: calc(95vw / 16 * 9);
+
+}
+
+}
+
+
+
+
+
+
