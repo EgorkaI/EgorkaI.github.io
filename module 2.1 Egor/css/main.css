@@ -1,0 +1,44 @@
+.img-box{
+column-count: 4;
+column-gap:5px;
+width: 80%;
+margin: auto;
+}
+.image{
+max-width:100%;
+display: block;
+filter: blur(1px);
+
+}
+.image+.image{
+	margin:5px 0;
+}
+.image:hover{
+	filter: blur(0);
+
+}
+.heading{
+text-align:center;
+font-size:40px;
+color:aquamarine;
+
+
+
+}
+body{
+background-color:#6595ac;
+font-family: 'Jost', sans-serif;
+font-family: 'Press Start 2P', cursive;
+}
+@media all and (max-width: 768px)
+{.img-box{
+	column-count:1;
+}
+}
+a{
+
+text-decoration:none;
+
+
+}
+
